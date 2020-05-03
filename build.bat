@@ -1,1 +1,0 @@
-kotlinc-js  app.kt view.kt controller.kt model.kt -output main.js
