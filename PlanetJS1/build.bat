@@ -1,0 +1,1 @@
+kotlinc-js *.kt -output main.js
