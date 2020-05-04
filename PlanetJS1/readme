@@ -1,1 +1,3 @@
 
+App is not functional as it originally relied on Kotlin threading, which KotlinJS does not support.
+However, other than that it transpiled completely.
