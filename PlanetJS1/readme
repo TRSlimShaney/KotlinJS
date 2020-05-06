@@ -1,3 +1,9 @@
 
-App is not functional as it originally relied on Kotlin threading, which KotlinJS does not support.
-However, other than that it transpiled completely.
+5/4/2020:   App is not functional as it originally relied on Kotlin threading, which KotlinJS does not support.
+            However, other than that it transpiled completely.
+
+5/5/2020:   Kotlin thread calls have been replaced with JS setInterval, which is functionally equivalent to what
+            I had done before except it has it's own timer built in.  This means the game's logic is now fully ported
+            over to JavaScript.  The previously used view PyQt5 based GUI is incompatible with browser JavaScript
+            engines, so a new one will have to be written.  Given that I can write it in Kotlin, it should be much
+            easier, and perhaps even more polished than the PyQt version.
